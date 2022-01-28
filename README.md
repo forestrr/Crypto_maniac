@@ -1,2 +1,2 @@
-# Crypto_maniac
+# Cryptomaniac.
 A platform to analyse your Digital Assets 
