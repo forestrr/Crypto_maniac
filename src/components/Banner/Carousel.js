@@ -38,7 +38,9 @@ const Carousel = () => {
   useEffect(() => {
     fetchTrendingCoins();
   }, [currency]);
+
   //mapping the items to coin and to use as the further operations
+  
   const items = trending.map((coin) => {
     let profit = coin.price_change_percentage_24h >= 0;
     return (
@@ -59,7 +61,7 @@ const Carousel = () => {
             }}
           >
             {profit && "+"}
-            {coin?.price_change_percentage_24?.toFixed(2)}%
+            {coin?.price_change_percentage_24h?.toFixed(2)}%
           </span>
         </span>
         <span style={{ fontSize: 22, fontWeight: 500 }}>
