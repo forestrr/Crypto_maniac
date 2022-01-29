@@ -33,7 +33,7 @@ const Banner = () => {
             <Typography 
             variant="h2"
             style={{
-                color:"gold",
+                color:"white",
                 fontWeight:"bold",
                 marginBottom:15,
                 fontFamily:"Montserrat"
