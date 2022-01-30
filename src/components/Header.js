@@ -1,6 +1,7 @@
 import { AppBar, Container, createTheme, makeStyles, MenuItem, Select, ThemeProvider, Toolbar, Typography } from '@material-ui/core';
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import AuthModal from '../Authentication/AuthModal';
 import { CryptoState } from '../CryptoContext';
 
 const useStyle=makeStyles(()=> ({
@@ -50,6 +51,7 @@ const Header = () => {
                      <MenuItem value={"USD"} >USD</MenuItem>
                      <MenuItem value={"INR"} >INR</MenuItem>
                  </Select>
+                 <AuthModal/>
              </Toolbar>
          </Container>
 

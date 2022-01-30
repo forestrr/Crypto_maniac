@@ -16,23 +16,18 @@ import {
   Table,
   Paper,
 } from "@material-ui/core";
-import axios from "axios";
-import { CoinList } from "../config/api";
 import { useHistory } from "react-router-dom";
 import { CryptoState } from "../CryptoContext";
-import Coinpage from "../pages/Coinpage";
 
 export function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 export default function CoinsTable() {
-  const [coins, setCoins] = useState([]);
-  const [loading, setLoading] = useState(false);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
 
-  const { currency, symbol } = CryptoState();
+  const {fetchCoins, currency, symbol ,coins,loading} = CryptoState();
 
   const useStyles = makeStyles({
     row: {
@@ -62,14 +57,7 @@ export default function CoinsTable() {
     },
   });
 
-  const fetchCoins = async () => {
-    setLoading(true);
-    const { data } = await axios.get(CoinList(currency));
-    console.log(data);
-
-    setCoins(data);
-    setLoading(false);
-  };
+  
 
   useEffect(() => {
     fetchCoins();
