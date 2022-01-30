@@ -6,6 +6,12 @@ wanna see the demo at netlfy.app
 ### https://61f653f3615bf04367d1860e--serene-banach-6c94ab.netlify.app/
 
 
+## Crytomaniac⚡ working demo at Vercel🚀
+wanna see the demo at Vercel App
+### https://crypto-maniac.vercel.app/
+
+
+
 
 
 
