@@ -1,7 +1,7 @@
 # Cryptomaniac 
 A complete web app to analayse your favourite crypto and digital assets
 
-## Crytomaniac⚡ run demo at netlify
+## Crytomaniac⚡ working demo at netlify.App🚀
 wanna see the demo at netlfy.app
 ### https://61f653f3615bf04367d1860e--serene-banach-6c94ab.netlify.app/
 
@@ -74,4 +74,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-
+## Netflify build 
+add CI= npm run build at build command in the Netlify
+or add a Netlify.toml file at root directory 
+and 
+[build]
+command = “CI= npm run build”
+at the file 
