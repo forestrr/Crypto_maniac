@@ -1,6 +1,10 @@
 # Cryptomaniac 
 A complete web app to analayse your favourite crypto and digital assets
 
+## Crytomaniac⚡ run demo at netlify
+wanna see the demo at netlfy.app
+### https://61f653f3615bf04367d1860e--serene-banach-6c94ab.netlify.app/
+
 
 
 
@@ -70,8 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
