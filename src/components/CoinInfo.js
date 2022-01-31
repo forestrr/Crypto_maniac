@@ -20,6 +20,7 @@ const CoinInfo = ({ coin }) => {
 
   const useStyles = makeStyles((theme) => ({
     container: {
+      
       width: "75%",
       display: "flex",
       flexDirection: "column",

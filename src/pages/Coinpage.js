@@ -31,12 +31,15 @@ const CoinPage = () => {
       [theme.breakpoints.down("md")]: {
         flexDirection: "column",
         alignItems: "center",
+        
+
       },
     },
     sidebar: {
       width: "30%",
       [theme.breakpoints.down("md")]: {
         width: "100%",
+        height:"100%"
       },
       display: "flex",
       flexDirection: "column",
@@ -56,8 +59,11 @@ const CoinPage = () => {
       paddingBottom: 15,
       paddingTop: 0,
       textAlign: "justify",
+      marginBottom:20,
     },
     marketData: {
+
+      height:"100%",
       alignSelf: "start",
       padding: 25,
       paddingTop: 10,
@@ -87,7 +93,7 @@ const CoinPage = () => {
           src={coin?.image.large}
           alt={coin?.name}
           height="200"
-          style={{ marginBottom: 20 }}
+          style={{ marginBottom: 15 }}
         />
         <Typography variant="h3" className={classes.heading}>
           {coin?.name}
