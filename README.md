@@ -1,9 +1,7 @@
 # Cryptomaniac 
 A complete web app to analayse your favourite crypto and digital assets
 
-## Crytomaniac⚡ working demo at netlify.App🚀
-wanna see the demo at netlfy.app
-### https://61f653f3615bf04367d1860e--serene-banach-6c94ab.netlify.app/
+
 
 
 ## Crytomaniac⚡ working demo at Vercel🚀
