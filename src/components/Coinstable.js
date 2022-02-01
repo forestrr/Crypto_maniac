@@ -23,7 +23,7 @@ export function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-export default function CoinsTable() {
+export default function Coinsbable() {
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
 
@@ -71,6 +71,7 @@ export default function CoinsTable() {
         coin.symbol.toLowerCase().includes(search)
     );
   };
+  
 
   return (
     <ThemeProvider theme={darkTheme}>
