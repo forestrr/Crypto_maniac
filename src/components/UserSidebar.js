@@ -30,13 +30,13 @@ const useStyles = makeStyles({
     width: 200,
     height: 200,
     cursor: "pointer",
-    backgroundColor: "#00897b",
+    backgroundColor: "#EBB81A",
     objectFit: "contain",
   },
   logout: {
       height: "8%",
       width: "100%",
-      backgroundColor: "#00897b",
+      backgroundColor: "#EBB81A",
       marginTop:20,
   },
   watchlist: {
@@ -60,7 +60,7 @@ const useStyles = makeStyles({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#00897b",
+    backgroundColor: "#EBB81A",
     boxShadow: "0 0 3px black",
   }
 });
@@ -123,7 +123,7 @@ export default function UserSidebar() {
               height: 38,
               width: 38,
               cursor: "pointer",
-              backgroundColor: "#00897b",
+              backgroundColor: "#EBB81A",
             }}
           />
           <Drawer

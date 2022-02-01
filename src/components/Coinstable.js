@@ -40,7 +40,7 @@ export default function Coinsbable() {
     },
     pagination: {
       "& .MuiPaginationItem-root": {
-        color: "#00897b ",
+        color: "#EBB81A ",
       },
     },
   });
@@ -90,10 +90,10 @@ export default function Coinsbable() {
         />
         <TableContainer component={Paper}>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "#00897b " }} />
+            <LinearProgress style={{ backgroundColor: "#EBB81A " }} />
           ) : (
             <Table aria-label="simple table">
-              <TableHead style={{ backgroundColor: "#00897b " }}>
+              <TableHead style={{ backgroundColor: "#EBB81A " }}>
                 <TableRow>
                   {["Coin", "Price", "24h Change", "Market Cap"].map((head) => (
                     <TableCell

@@ -8,7 +8,7 @@ import UserSidebar from './UserSidebar';
 const useStyle=makeStyles(()=> ({
     title:{
         flex:1,
-        color: "#00897b ",
+        color: "#EBB81A ",
         fontFamily:"Montserrat",
         fontWeight:"bold",
         cursor: "pointer",
